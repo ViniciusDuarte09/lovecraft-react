@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+/* Raíz do arquivo HTML, ou seja, mundanças aqui podem ser acessadas por tudo*/
+:root{
+
+    /* Cores */
+  --color-bg: #0C060E;
+  --color-card-bg: #24122B;
+  --color-accent: #30183A;
+  --text-color: #CDD3CF;
+
+  /* Tipografia */
+  --font-tittle: "Cinzel", serif;
+  --font-text: "Crimson Text", serif;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html, body{
+  font-family: var(--font-text);
+  color: var(--text-color);
+
+  background-color: var(--color-bg);
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+ul{
+  list-style: none;
+}
+
+h1{
+  font-family: var(--font-tittle);
+}
