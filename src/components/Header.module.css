@@ -9,7 +9,8 @@ header{
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 15%;
+    padding: 10px 40px
+    ;
 }
 
 .navBar{
@@ -39,14 +40,9 @@ header{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    animation: waves 5s infinite ease-in-out;
+
 }
 
 .brandIcon{
     font-size: 2.8rem;
-}
-
-@keyframes waves {
-    0%, 100%{ transform: rotate(0%);}
-    50% { transform: rotate(0%);}
 }

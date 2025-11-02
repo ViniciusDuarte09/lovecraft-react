@@ -18,15 +18,15 @@ function Header(){
                 </ul>
             </nav>
 
-            <img src="/imgs/symbol-icon.png" alt="Símbolo Lovecraft" className={styles.lvIcon}/>
+            <div className={styles.mainIcons}>
+                <img src="/imgs/symbol-icon.png" alt="Símbolo Lovecraft" className={styles.lvIcon}/>
+                <img src="/imgs/tentacles.png" alt="Tentáculos" className={styles.tentaclesAnimation}/>
+            </div>
 
            <nav className={styles.navBar}>
              <a href="https://instagram.com/msv_vic"><FontAwesomeIcon icon={faInstagram} className={styles.brandIcon}></FontAwesomeIcon></a>
              <a href="https://github.com/ViniciusDuarte09"><FontAwesomeIcon icon={faGithub} className={styles.brandIcon}></FontAwesomeIcon></a>
-           </nav>
-
-            <img src="/imgs/tentacles (2).png" alt="Tentáculos" className={styles.tentaclesAnimation}/>
-            
+           </nav>            
         </header>
     )
 }
