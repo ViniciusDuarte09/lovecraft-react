@@ -1,3 +1,52 @@
-footer{
+.footer{
     background-color: var(--color-card-bg);
-}   
+    font: vat( --font-text);
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 25px;
+
+    padding: 10px;
+}  
+
+.navBar{
+    font-size: 1.5rem;
+    width: 450px;
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.lvIcon{
+    height: 40px;
+}
+
+.footer hr{
+    background-color: var(--text-color);
+    width: 650px;
+}
+
+.rights a{
+    color: #cfc0dd;
+}
+
+.link{
+    position: relative;
+}
+
+.link::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -4px;
+    width: 0%;
+    height: 1px;
+    background-color: var(--text-color);
+    transition: width 0.5s ease-in-out;
+}
+
+.link:hover::after{
+    width: 100%;
+}
