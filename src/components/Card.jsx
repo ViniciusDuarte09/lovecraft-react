@@ -3,7 +3,7 @@ import { getAllCreatures } from "../services/creaturesService";
 
 export default function Card({creatureData, isExpanded}){
   
-  const[expanded, setexpanded] = useState(false);
+  const[expanded, setExpanded] = useState(false);
   const[data, setData] = useState(creatureData);
 
   return(
