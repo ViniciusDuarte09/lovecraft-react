@@ -1,0 +1,38 @@
+/*Filtros*/
+
+/*Creatures*/
+
+/*Loading*/
+  .loading_countainer{
+    width: 100%;
+    height: 75vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .loading_text{
+    font-size: 24px;
+    letter-spacing: 2px;
+  }
+
+  .faCircleNotch{
+    font-size: 2rem;
+
+    animation: spin 1s linear infinite;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to{
+      transform: rotate(360deg); 
+    }
+  }
+
+/*Erros*/
